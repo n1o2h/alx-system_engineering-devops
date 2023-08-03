@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -1a | grep -E '^[A-Za-z0-9]' | sort -d | tr '\n' ','; echo
-
+ls -xamp
