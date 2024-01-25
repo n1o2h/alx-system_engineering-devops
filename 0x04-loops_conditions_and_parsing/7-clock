@@ -4,11 +4,11 @@
 #displaing minutes from 1 to 59
 
 hr=0
-while [ $hr -lt 12 ]
+while [ $hr -lt 13 ];
 do
     echo "Hour: $hr"
     mnt=1
-    while [ $mnt -lt 59 ]
+    while [ $mnt -lt 60 ];
     do
         echo "$mnt"
         (( mnt++ ))
