@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#This bash script ...
+
+file_name="7-highlander"
+pkill -f $file_name
